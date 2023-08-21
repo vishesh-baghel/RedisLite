@@ -20,7 +20,6 @@ public class RedisLiteCommand implements Runnable {
     }
 
     public void run() {
-        // business logic here
         if (verbose) {
             System.out.println("Hi!");
         }
